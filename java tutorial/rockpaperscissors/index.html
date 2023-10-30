@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div id="gameDiv">
+        <h1 class="gameText" id="sGameHeading">Single Game Simulator</h1>
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+
+        <button class="choiceBtn">Rock</button>
+        <button class="choiceBtn">Paper</button>
+        <button class="choiceBtn">Scissors</button>
+        <button class="resetBtn">Reset Score</button>
+    </div>
+<p class="js-score"></p>
+<!-- 
+<p id="winCount">Total Wins: </p>
+<p id="lossCount">Total Losses: </p>
+<p id="drawCount"> Total Draws: </p>
+-->
+<div id="gameDiv">
+    <h1 class="gameText" id="mGameHeading"> Multi-Game Simulator with Wagers</h1>
+    <h1 class="gameText" id="mPlayerText">Player: </h1>
+    <h1 class="gameText" id="mComputerText">Computer: </h1>
+    <h1 class="gameText" id="mResultText">Result: </h1>
+
+    <button class="mChoiceBtn">Rock</button>
+    <button class="mChoiceBtn">Paper</button>
+    <button class="mChoiceBtn">Scissors</button>
+    <button class="mResetBtn">Reset Score</button>
+</div>
+<p class="js-mScore"></p>
+<!--
+<p id="mWinCount">Total Simulated Wins: </p>
+<p id="mLossCount">Total Simulated Losses: </p>
+<p id="mDrawCount"> Total Simulated Draws: </p>
+<p id = "mHighestOutcome"> Simulated Player Pot: $0</p>
+-->
+    <script src="rockpaperscissors.js"></script>
+</body>
+</html>

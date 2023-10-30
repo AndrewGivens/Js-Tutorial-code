@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .title-container {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="game-container">
+        <section id="single-game" class="game-section">
+            <h1 class="game-heading">Single Game Simulator</h1>
+            <div class="game-info">
+                <p id="playerText">Player: </p>
+                <p id="computerText">Computer: </p>
+                <p id="resultText">Result: </p>
+            </div>
+            <div class="game-actions">
+                <button class="choiceBtn">Rock</button>
+                <button class="choiceBtn">Paper</button>
+                <button class="choiceBtn">Scissors</button>
+                <button class="resetBtn">Reset Score</button>
+            </div>
+            <p class="js-score"></p>
+        </section>
+        
+        <section id="multi-game" class="game-section">
+            <h1 class="game-heading">Multi-Game Simulator with Wagers</h1>
+            <div class="game-info">
+                <p id="mPlayerText">Player: </p>
+                <p id="mComputerText">Computer: </p>
+                <p id="mResultText">Result: </p>
+            </div>
+            <div class="game-actions">
+                <button class="mChoiceBtn">Rock</button>
+                <button class="mChoiceBtn">Paper</button>
+                <button class="mChoiceBtn">Scissors</button>
+                <button class="mResetBtn">Reset Score</button>
+            </div>
+            <p class="js-mScore"></p>
+        </section>
+    </div>
+
+  
+    <script src="rockpaperscissors.js"></script>
+</body>
+</html>

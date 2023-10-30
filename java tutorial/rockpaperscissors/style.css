@@ -1,0 +1,40 @@
+
+.choiceBtn{
+  line-height: 30px;
+  width: 150px;
+}
+.mChoiceBtn{
+  line-height: 30px;
+  width: 150px;
+}
+.mResetBtn{
+  line-height: 30px;
+  width: 150px;
+}
+.resetBtn{
+  line-height: 30px;
+  width: 150px;
+}
+#gameDiv{
+  font-family: 'Brush Script MT', cursive;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: lightgrey;
+  text-align: center;
+}
+#playerText{
+  color: blue;
+}
+#computerText{
+  color: red;
+}
+#mPlayerText{
+  color: blue;
+}
+#mComputerText{
+  color: red;
+}
+#mGameHeading{
+  color :aliceblue
+}

@@ -1,0 +1,72 @@
+/* Resetting default margin and padding to remove white space */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* Dark overall background color */
+  color: #ccc; /* Light text color for the whole page */
+  font-family: 'Arial', sans-serif; /* Adjusted font */
+}
+
+/* Buttons for both single and multi-game */
+.choiceBtn, .mChoiceBtn, .resetBtn, .mResetBtn, .autoPlayBtn {
+  line-height: 40px; /* Increased for better readability */
+  width: 150px;
+  background-color: #444; /* Dark gray color for buttons */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow for a modern look */
+}
+
+.choiceBtn:hover, .mChoiceBtn:hover, .resetBtn:hover, .mResetBtn:hover, .autoPlayBtn:hover{
+  background-color: #333; /* Darker shade on hover */
+}
+
+/* Game divs */
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: #333; /* Dark background for the game container */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+}
+
+.game-section {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #444; /* Dark gray background */
+  color: #ccc; /* Light text color */
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+}
+
+.game-heading {
+  color: #ccc; /* Light text color */
+  margin-bottom: 20px;
+}
+
+.game-info p {
+  color: #ccc; /* Lighter text color for game information */
+  margin: 5px 0;
+}
+
+/* Specific text color for players and headings */
+#playerText, #mPlayerText {
+  color: #ccc; /* Light text color */
+}
+
+#computerText, #mComputerText, #mResultText {
+  color: #ccc; /* Light text color */
+}
+
+#mGameHeading {
+  color: #ccc; /* Light text color */
+}
+ 

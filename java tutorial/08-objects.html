@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const product = {
+      name: 'socks',
+      price: 1090
+    };
+    console.log(product);
+    product.name = 'cotton socks';
+    console.log(product.name);
+
+    const product2 = {
+      name: 'shirt',
+      ['delivery-time'] : '1 day',
+      rating: {
+        stars: 4.5,
+        count: 87,
+      },
+      fun : function function1()
+      {
+        console.log('Function in an object');
+      }
+    
+    };
+    product2.fun();
+//JSON stands for Javascript Object Notation which format is slightly different than a simple JS object.
+//JSON tends to be mroe universal and read across many languages/machines 
+//whereas a JS object only makes sense within JS.
+    console.log(JSON.stringify(product2));
+    const jsonString = JSON.stringify(product2);
+    console.log(JSON.parse(jsonString));
+
+
+    console.log('how do you do'.length);
+
+
+
+    const object4 = {
+      message : 'Good Job!',
+      price: 799
+    };
+
+
+    //const message = object4.message
+    const {message, price} = object4;
+    console.log(message);
+    console.log(price);
+
+    const object5 = {
+      // message : message
+      message,
+     //  method: function function1(){
+     //   console.log('method');
+     //  }
+      method() {
+        console.log('method');
+      }
+    };
+console.log(object5);
+object5.method();
+  </script>
+</body>
+</html>
